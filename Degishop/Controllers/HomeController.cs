@@ -23,6 +23,23 @@ namespace Degishop.Controllers
             return View();
         }
 
+        public IActionResult Login(string username, string password)
+        {
+            if (username.ToLower() == "admin" & password == "A1234")
+            {
+                return View("AdminDashboard");
+            }
+            else if (username.ToLower() == "taha" & password == "taha5678")
+            {
+                return View("TahaDashboard");
+            }
+            else
+            {
+                return Content("No Authentication");
+
+            }
+        }
+
         public IActionResult Privacy()
         {
             return View();

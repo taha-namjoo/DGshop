@@ -167,3 +167,5 @@ C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views\PC_AND_Laptop\Details.cshtml.g.cs
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views\PC_AND_Laptop\Edit.cshtml.g.cs
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views\PC_AND_Laptop\Index.cshtml.g.cs
+C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views\Home\AdminDashboard.cshtml.g.cs
+C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views\Home\TahaDashboard.cshtml.g.cs
