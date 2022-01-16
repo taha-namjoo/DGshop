@@ -20,7 +20,7 @@ namespace Degishop.Controllers
         {
             ViewData["CostSortParam"] = sortCost == "Cost" ? "cost_desc" : "Cost";
 
-            var pls = from Cost in _context.PC_AND_Laptop select Cost;
+            var pls = from Cost in _context.PC_AND_Laptop.Include(c=>c.Brands) select Cost;
 
             switch (sortCost)
             {
@@ -86,7 +86,7 @@ namespace Degishop.Controllers
             {
                 return NotFound();
             }
-            ViewData["BrandsId"] = new SelectList(_context.Brands, "Id", "Id", pC_AND_Laptop.BrandsId);
+            ViewData["BrandsId"] = new SelectList(_context.Brands, "Id", "Name", pC_AND_Laptop.BrandsId);
             return View(pC_AND_Laptop);
         }
 
@@ -140,8 +140,16 @@ namespace Degishop.Controllers
 
             return View(pC_AND_Laptop);
         }
-
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var pCandlaptop = await _context.PC_AND_Laptop.FindAsync(id);
+            _context.PC_AND_Laptop.Remove(pCandlaptop);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> search(string searchPhrase)
         {
             ViewData["CurrentSearch"] = searchPhrase;
@@ -151,7 +159,7 @@ namespace Degishop.Controllers
             {
                 pc_laptops = pc_laptops.Where(pl => pl.model_name.Contains(searchPhrase));
             }
-            return View("Index",await pc_laptops.AsNoTracking().ToListAsync());
+            return View("Index", await pc_laptops.AsNoTracking().ToListAsync());
         }
 
         private bool PC_AND_LaptopExists(int id)

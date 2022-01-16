@@ -7,7 +7,6 @@ C:\Users\le\OneDrive\Desktop\proj\Degishop\unit_test\bin\Debug\net5.0\Degishop.r
 C:\Users\le\OneDrive\Desktop\proj\Degishop\unit_test\bin\Debug\net5.0\Degishop.runtimeconfig.dev.json
 C:\Users\le\OneDrive\Desktop\proj\Degishop\unit_test\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\le\OneDrive\Desktop\proj\Degishop\unit_test\bin\Debug\net5.0\appsettings.json
-C:\Users\le\OneDrive\Desktop\proj\Degishop\unit_test\bin\Debug\net5.0\Degishop.StaticWebAssets.xml
 C:\Users\le\OneDrive\Desktop\proj\Degishop\unit_test\bin\Debug\net5.0\Degishop.exe
 C:\Users\le\OneDrive\Desktop\proj\Degishop\unit_test\bin\Debug\net5.0\testhost.exe
 C:\Users\le\OneDrive\Desktop\proj\Degishop\unit_test\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll

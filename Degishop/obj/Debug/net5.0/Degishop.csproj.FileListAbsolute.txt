@@ -125,7 +125,6 @@ C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\bin\Debug\net5.0\runtimes\wi
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Degishop.csproj.AssemblyReference.cache
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Degishop.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Degishop.AssemblyInfoInputs.cache
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Degishop.AssemblyInfo.cs
@@ -169,3 +168,4 @@ C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views\PC_AND_Laptop\Index.cshtml.g.cs
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views\Home\AdminDashboard.cshtml.g.cs
 C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Razor\Views\Home\TahaDashboard.cshtml.g.cs
+C:\Users\le\OneDrive\Desktop\proj\Degishop\Degishop\obj\Debug\net5.0\Degishop.csproj.AssemblyReference.cache

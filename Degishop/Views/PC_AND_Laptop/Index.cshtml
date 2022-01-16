@@ -13,7 +13,7 @@
 
         <div class="form-actions no-color">
             <p>
-                Brand Name: <input type="text" name="SearchPhrase" value="@ViewData["CurrentSearch"]" />
+                Name: <input type="text" name="SearchPhrase" value="@ViewData["CurrentSearch"]" />
                 <input type="submit" value="Search" class="btn btn-dark"/>
                 <a asp-action="Index" class="alert-info">Remove search query</a>
             </p>
@@ -72,7 +72,7 @@
                     @Html.DisplayFor(modelItem => item.Graphic)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Brands.Name)
+                    @Html.DisplayFor(modelItem => item.Brands.Name )
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
